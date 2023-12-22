@@ -1,3 +1,4 @@
+/* Global styles */
 * {
     box-sizing: border-box;
     margin: 0;
@@ -5,64 +6,86 @@
     font: inherit;
 }
 
-body{
+/* Body styles */
+body {
     min-height: 100vh;
+    font-family: serif;
+    font-weight: bold;
 }
 
-header{
+/* Header styles */
+header {
     display: flex;
     justify-content: space-between;
 }
 
-header,footer{
+/* Header and Footer shared styles */
+header,
+footer {
     margin: 10px 5px;
 }
 
-.logo{
+/* Logo styles */
+.logo {
     display: flex;
     align-items: center;
 }
 
-a{
+/* Anchor styles */
+a {
     text-decoration: none;
 }
 
-header img{
+/* Header image styles */
+header img {
     width: 10%;
 }
 
-main{
+/* Main content styles */
+main {
     background-color: #eaf2ff;
     padding: 10px;
 }
 
-.first-section{
+/* First section styles */
+.first-section {
     margin: 20px 0;
 }
 
-.first-section h1{
+.first-section h1 {
     font-size: 40px;
     width: 60vw;
     margin-bottom: 20px;
 }
 
-.first-section p{
+.first-section h1 img{
+    width: 40px;
+    border-radius: 10px;
+    display: inline;
+}
+
+.first-section p {
     margin-top: 10px;
 }
 
-.fa-bitcoin{
+/* Bitcoin icon styles */
+.fa-bitcoin {
     color: #f7931b;
 }
 
-span{
+/* Span text color styles */
+span {
     color: #0345d1;
 }
 
-p{
+/* Paragraph text color styles */
+p {
     color: #979ca2;
+    font-family: 'open sans' sans-serif;
 }
 
-button{
+/* Button styles */
+button {
     background: #0345d1;
     border: none;
     padding: 5px;
@@ -70,11 +93,12 @@ button{
     border-radius: 5px;
 }
 
-button a{
+button a {
     color: #ffffff;
 }
 
-aside{
+/* Aside (cryptocurrency information) styles */
+aside {
     background: #ffffff;
     margin: 10px;
     display: flex;
@@ -83,33 +107,39 @@ aside{
     border-radius: 5px;
 }
 
-aside .fa-bitcoin{
+/* Bitcoin icon size in Aside styles */
+aside .fa-bitcoin {
     font-size: 50px;
 }
 
-.halfwidth1{
+/* Halfwidth1 styles */
+.halfwidth1 {
     margin-bottom: 10px;
 }
 
-.footer-content{
+/* Footer content styles */
+.footer-content {
     display: flex;
     justify-content: space-between;
 }
 
-.footer-content h4{
+.footer-content h4 {
     margin-bottom: 5px;
 }
 
-address p{
+/* Address paragraph styles */
+address p {
     color: #1e1f21;
     margin-bottom: 5px;
 }
 
-address p i{
+/* Address paragraph icon styles */
+address p i {
     margin-right: 2px;
 }
 
-.social p{
+/* Social media paragraph styles */
+.social p {
     display: inline;
     margin-right: 10px;
 }
