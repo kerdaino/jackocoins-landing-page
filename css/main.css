@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font: inherit;
+}
+
+body{
+    display: grid;
+    min-height: 100vh;
+    place-content: center;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+header,footer{
+    margin: 10px 5px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+header img{
+    width: 10%;
+}
+
+main{
+    background-color: #eaf2ff;
+    padding: 10px;
+}
+
+.first-section{
+    margin: 20px 0;
+}
+
+.first-section h1{
+    font-size: 40px;
+    width: 60vw;
+    margin-bottom: 20px;
+}
+
+.first-section p{
+    margin-top: 10px;
+}
+
+.fa-bitcoin{
+    color: #f7931b;
+}
+
+span{
+    color: #0345d1;
+}
+
+p{
+    color: #979ca2;
+}
+
+button{
+    background: #0345d1;
+    border: none;
+    padding: 5px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+button a{
+    color: #ffffff;
+}
+
+aside{
+    background: #ffffff;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+aside .fa-bitcoin{
+    font-size: 50px;
+}
+
+.halfwidth1{
+    margin-bottom: 10px;
+}
+
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-content h4{
+    margin-bottom: 5px;
+}
+
+address p{
+    color: #1e1f21;
+    margin-bottom: 5px;
+}
+
+address p i{
+    margin-right: 2px;
+}
+
+.social p{
+    display: inline;
+    margin-right: 10px;
+}
